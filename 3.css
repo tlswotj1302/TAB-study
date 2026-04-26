@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background: #202124;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* 상단 바 */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    font-size: 14px;
+}
+
+.left span,
+.right span {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    background: #8ab4f8;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* 가운데 */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.logo {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+/* 검색창 */
+.fake-input {
+    width: 500px;
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: 1px solid #5f6368;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #9aa0a6;
+}
+
+/* 왼쪽 아이콘 */
+.icon {
+    margin-right: 10px;
+}
+
+/* 가운데 텍스트 */
+.text {
+    flex: 1;
+}
+
+/* 오른쪽 아이콘 */
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+/* 버튼 */
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 15px;
+    background: #303134;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
