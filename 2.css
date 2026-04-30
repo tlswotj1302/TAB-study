@@ -11,7 +11,6 @@ body {
 .app {
     width: 360px;
     height:95vh;
-    aspect-ratio: 9/16;
     background: #ffffff;
     padding: 20px;
     border-radius: 20px;
