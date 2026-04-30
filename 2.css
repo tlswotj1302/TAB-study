@@ -20,12 +20,6 @@ body {
     border: 2px solid black;
 }
 
-.header {
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
 .x {
     position: absolute;
     left: 10;
